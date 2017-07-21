@@ -1,0 +1,37 @@
+{
+	"Hosts": 
+	[
+		{
+			"address": "vm-01.local",
+			"port": "2375",
+			"tlsRequired": "false"
+		},
+
+		{
+			"address": "vm-02.local",
+			"port": "2375",
+			"tlsRequired": "false"
+		},
+
+		{
+			"address": "vm-03.local",
+			"port": "2375",
+			"tlsRequired": "false"
+		},
+
+		{
+			"address": "vm-04.local",
+			"port": "2375",
+			"tlsRequired": "false"
+		}
+	],
+
+	"PrivateRegistries": 
+	[
+		{
+			"name": "Private Registry",
+			"address": "vm-04.local",
+			"port": "5000"
+		}
+	]
+}
